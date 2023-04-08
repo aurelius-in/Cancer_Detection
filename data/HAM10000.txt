@@ -1,0 +1,2 @@
+## HAM10000: 
+A dataset of 10,000 images of pigmented lesions that contains 7 types of benign and malignant skin lesions.
