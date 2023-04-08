@@ -1,5 +1,10 @@
 import tensorflow as tf
 
+# This model architecture is a relatively simple CNN with a series of convolutional layers followed by 
+# fully connected layers. It includes max pooling layers to reduce the spatial dimensions of the feature maps, 
+# and dropout layers to reduce overfitting. The final output layer uses softmax activation for multi-class classification. 
+# The model is compiled with the Adam optimizer, categorical crossentropy loss function, and categorical accuracy metric.
+
 def build_model(input_shape, num_classes, learning_rate):
     # Define the input layer
     input_layer = tf.keras.layers.Input(shape=input_shape)
