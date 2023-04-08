@@ -1,0 +1,40 @@
+# Data Acquisition and Cleaning Plan
+
+## Data Sources
+
+The dataset will be obtained from publicly available sources, such as:
+
+- International Skin Imaging Collaboration (ISIC) Archive
+- National Library of Medicine Skin Disease Dataset (NLM Skin Dataset)
+- HAM10000: The HAM10000 dataset
+
+## Data Collection
+
+The dataset will be collected using the following steps:
+
+1. Search for and identify publicly available datasets that contain medical images of skin lesions.
+2. Download the datasets and verify that the images are in a suitable format for processing (e.g., JPEG, PNG).
+3. Filter the images to ensure that they are relevant to the project (i.e., images of skin lesions).
+4. Remove any duplicate images to avoid biasing the model towards certain images.
+
+## Data Cleaning
+
+The following data cleaning steps will be performed:
+
+1. Convert the images to a standard format (e.g., JPEG) and resize them to a consistent resolution.
+2. Normalize the pixel values to ensure that they fall within the same range.
+3. Segment the images to remove any non-relevant regions (e.g., background) using image processing techniques.
+4. Crop the images to focus on the area of the skin lesion.
+5. Split the dataset into training, validation, and test sets.
+
+## Data Augmentation
+
+To increase the size of the dataset and improve the model's ability to generalize, the following data augmentation techniques will be used:
+
+- Random rotation and flipping of the images.
+- Random zooming and cropping of the images.
+- Adding random noise to the images.
+
+## Conclusion
+
+This data acquisition and cleaning plan outlines the steps to collect and preprocess a dataset of medical images of skin lesions. The plan includes data collection from publicly available sources, data cleaning to prepare the images for training, and data augmentation to increase the size of the dataset and improve the model's ability to generalize.
